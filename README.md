@@ -16,7 +16,10 @@ This project focuses on various data visualization techniques and tools to analy
 To get started with the project, clone this repository:
 
 ```sh
-git clone https://github.com/Peacoxx/Project3_DataVisualization.git
+git clone https://github.com/Jrhaynes2/Project3_DataVisualization.git
+
+To access the app:
+Run the app.py file through an integrated terminal.
 
 ------------------------------------------------------------------------
 
