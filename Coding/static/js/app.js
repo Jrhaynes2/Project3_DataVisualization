@@ -67,7 +67,7 @@ function init() {
             companySelector.append("option").text(company).property("value", company);
         });
 
-        let items = data.filter(d => d.Company === firstCompany).map(d => d.Item);
+        let items = data.filter(d => d.Company === companySelector).map(d => d.Item);
         items.forEach((item) => {
             itemSelector.append("option").text(item).property("value", item);
         });

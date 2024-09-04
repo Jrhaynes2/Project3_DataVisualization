@@ -11,6 +11,7 @@ def index():
 @app.route('/data')
 def data():
     csv_path = os.path.join(app.root_path, 'static', 'data', 'cleaned_df.csv')
+    # csv_path = os.path.join(app.root_path, '..', 'Resources', 'FastFoodNutritionMenuV2.csv')
     # csv_path = ("../static/data/cleaned_df.csv")
     df = pd.read_csv(csv_path)
     df['Carbs (g)'] = pd.to_numeric(df['Carbs (g)'], errors='coerce')
